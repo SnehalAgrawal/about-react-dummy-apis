@@ -1,0 +1,75 @@
+doctype html              
+html.
+    <head>
+      <title>ABOUTREACT</title>
+      <style type="text/css">
+        html { 
+          background: url('/images/aboutreact_1024_500.png') no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+        #visit-site {
+          position: fixed;
+          bottom: 20px;
+          left: 30px;
+          z-index: 99;
+          font-size: 22px;
+          border: none;
+          width: 250px;
+          outline: none;
+          background-color: #F58220;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 40px;
+          font-weight: 600;
+        }
+        #visit-site:hover {
+          background-color: #7CE150;
+        }
+        #visit-api {
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 22px;
+          border: none;
+          width: 250px;
+          outline: none;
+          background-color: #F58220;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 40px;
+          font-weight: 600;
+        }
+        #visit-api:hover {
+          background-color: #7CE150;
+        }
+        i {
+            border: solid white;
+          border-width: 0 3px 3px 0;
+          display: inline-block;
+          padding: 6px;
+          margin-left: 20px;
+        }
+        .right {
+          transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+        }
+      </style>
+    </head>
+    <body>
+      <button onclick="visitSite()" id="visit-site" title="Visit Site">Visit Site</i></button>
+      <button onclick="viewAPI()" id="visit-api" title="View APIs">View APIs <i class="arrow right"></i></button>
+      <script>
+        function visitSite() {
+          window.location.href = "https://aboutreact.com";
+        }
+        function viewAPI() {
+          window.location.href = "/api";
+        }
+      </script>
+    </body>

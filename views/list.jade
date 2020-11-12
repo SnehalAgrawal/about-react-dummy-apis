@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  h2 API List
+  ul
+    each api in apilist
+      li
+        h2 #{api.name} 
+        |Method: #{api.method}, Description: #{api.description} 
