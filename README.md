@@ -1,6 +1,23 @@
 # To Run the Project
 
-- install dependencies:
+- Clone Repo
+  ```bash
+  git clone https://github.com/SnehalAgrawal/about-react-dummy-apis.git
+  ```
+
+
+- Jump into the directory
+  ```bash
+  cd about-react-dummy-apis
+  ```
+
+- Install:
+
+  ```bash
+   npm install -g nodemon
+  ```
+
+- Install:
 
   ```bash
    npm install
@@ -8,13 +25,13 @@
 
 - Run the app:
   ```bash
-   DEBUG=about-react-dummy-apis:* npm start
+   npm start
   ```
 
 # APIs and Payload
 
 1. **Register**\
-   URL: http://localhost:3000/api/user/register\
+   URL: http://localhost:3000/api/user/register \
    Method: POST\
    Payload:
    ```JSON
@@ -49,7 +66,7 @@
    }
    ```
 2. **Login**\
-   URL: http://localhost:3000/api/user/login\
+   URL: http://localhost:3000/api/user/login \
    Method: POST\
    Payload:
    ```JSON
@@ -81,7 +98,7 @@
    }
    ```
 3. **Search**\
-   URL: http://localhost:3000/api/user/search?q=aboutreact\
+   URL: http://localhost:3000/api/user/search?q=aboutreact \
    Method: GET\
    User Found Response:
    ```JSON
@@ -110,3 +127,6 @@
      "msg": ""
    }
    ```
+
+## By
+[AboutReact](https://aboutrect.com)
