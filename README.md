@@ -14,12 +14,6 @@
 - Install:
 
   ```bash
-   npm install -g nodemon
-  ```
-
-- Install:
-
-  ```bash
    npm install
   ```
 
